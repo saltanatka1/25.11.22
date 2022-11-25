@@ -3,28 +3,37 @@
 }
 body {
   margin: 0;
-
+}
+.divbar {
+  background-color: white;
 }
 header {
-  display: flex;
-  background-color: burlywood;
+  
+  max-width: 980px;
+  margin: 0 auto;
 }
-div {
-  background-color: tomato;
-
-  margin: 15px;
-  padding: 15px;
-}
-.logo {
- /* margin-right: auto;*/
-}
-.nav {
- margin-right: auto;
- /* margin-left: auto;*/
-}
-.search {
+nav {
   margin-left: auto;
+  margin-right: auto;
 }
-.user {
 
+nav  ul{
+  display: flex; 
+  list-style-type: none;
 }
+nav ul li {
+ margin: 15px;
+  padding: 15px;  
+  
+}
+nav ul li a {
+  color: blue;
+  text-decoration: none;
+}
+ nav ul li:active {
+ background-color: blue;
+ border-radius: 10px;
+ }
+ nav ul li a:active {
+  color: white;
+ }
